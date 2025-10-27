@@ -32,9 +32,5 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            junit 'test-results.xml' // optional if you export results
-        }
-    }
+
 }
